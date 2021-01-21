@@ -1,6 +1,6 @@
 <template>
-  <img alt="kapilraghuwanshi logo" src="./assets/kapilraghuwanshi_logo.png" />
-  <Home msg="Hello Kapil" />
+  <img src="./assets/kapilraghuwanshi_logo.png" alt="kapilraghuwanshi logo"/>
+  <Home/>
 </template>
 
 <script>
