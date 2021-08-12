@@ -105,7 +105,7 @@
   <!-- footer image -->
   <footer>
     <img
-      src="../assets/footer.jpg"
+      src="../assets/images/footer.jpg"
       width="1200"
       height="300"
       alt="kapil-raghuwanshi-website-footer"
@@ -121,8 +121,10 @@ import Chart from "Chart.js";
 export default {
   name: "Home",
   props: {},
-  data() {
-    activeItem: "home",
+  data: () => {
+    return {
+      activeItem: "home",
+    };
   },
   methods: {
     isActive(menuItem) {
